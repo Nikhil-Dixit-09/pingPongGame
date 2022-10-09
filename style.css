@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* to prevent overflow because rod will not go outside the screen*/
+}
+#top{
+    height: 3vh;
+    width: 15vw;
+    position: absolute;
+    background-color: aqua;
+    text-align: center;
+    left: 42.5vw;
+    border: 2px solid black;
+}
+#canvas{
+    position: absolute;
+    top: 3vh;
+    height: 93.9vh;
+    width: 100vw;
+    /* setting properties of the canvas */
+}
+#bottom{
+    height: 3vh;
+    width: 15vw;
+    position: absolute;
+    background-color: aquamarine;
+    text-align: center;
+    left: 42.5vw;
+    top: 96.4vh;
+    border: 2px solid black;
+    /* giving desired properties to the bottom rod */
+}
