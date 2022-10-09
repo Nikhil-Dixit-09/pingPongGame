@@ -66,8 +66,8 @@ document.addEventListener('keydown',function(event){
         console.log(score);
         a++;//signifying player
         // console.log("enter pressed");
-        let vx=3;//velocity in x
-        let vy=4;//velocity in y
+        let vx=6;//velocity in x
+        let vy=7;//velocity in y
         
         move();
         function move(){
